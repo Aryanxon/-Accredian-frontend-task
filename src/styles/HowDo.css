@@ -1,0 +1,38 @@
+.HowDo_Container{
+    background-color: rgba(238, 245, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0px;
+    padding: 30px 0px;
+}
+
+.HowDo_Head{
+    font-size: 27.66px;
+    font-weight: 600;
+}
+
+.HowDo_image{
+    width: 70%;
+    object-position: center;
+    object-fit: cover;
+}
+.HowDo_image img{
+    width: 100%;
+   
+}
+
+.HowDo_button{
+    background-color: #3674B5;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: #F7F7F7;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}

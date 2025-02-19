@@ -1,0 +1,114 @@
+.NavBar_Top{
+    background-color: rgba(26, 115, 232, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.NavBar_Top span{
+    color: #3674B5;
+    margin-left: 10px;
+}
+
+
+.NavBar_Container{
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar_Left{
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.NavBar_Left img{
+    width: 120px;
+
+}
+
+.NavBar_Left_Button{
+    background-color: #3674B5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #F7F7F7;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.NavBar_Right{
+    display: block;
+}
+
+.NavBar_Right_Container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.Nav_Right_Text{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Nav_Right_Button{
+    background-color: rgba(148, 163, 184, 0.2);
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 18px;
+    border-radius: 10px;
+}
+.Nav_Right_Button2{
+    background-color: #3674B5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #F7F7F7;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.NavBar_Bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.NavBar_Bottom_Container{
+    background-color: rgba(26, 115, 232, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: '790px') {
+
+
+    .NavBar_Right{
+        display: none;
+    }
+    
+}
