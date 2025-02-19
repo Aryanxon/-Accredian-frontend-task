@@ -96,7 +96,7 @@
 }
 
 
-.NavBar_Left_Button{
+.Banner_Left_Button{
     background-color: #3674B5;
     padding: 10px 20px;
     border-radius: 10px;
@@ -151,7 +151,7 @@
     }
 
 
-    .NavBar_Left_Button{
+    /* .NavBar_Left_Button{
         background-color: #3674B5;
         padding: 10px 20px;
         border-radius: 10px;
@@ -162,7 +162,7 @@
         justify-content: center;
         align-items: center;
         gap: 5px;
-    }
+    } */
 
 
 

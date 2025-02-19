@@ -141,7 +141,7 @@ function Banner() {
                     <div className='Banner_Left_Head'>Let's Learn & Earn</div>
                     <div className='Banner_Left_Para' >Get a chance to win 
                     up-to <span style={{color: '#3674B5'}}>Rs. 15,000</span> </div>
-                    <div className='NavBar_Left_Button' onClick={() => setshowDialog(true)}>Refer now</div>
+                    <div className='Banner_Left_Button' onClick={() => setshowDialog(true)}>Refer now</div>
                 </div>
 
                 <div className='Banner_Right'><img src={Banner_Img} alt="" /></div>
