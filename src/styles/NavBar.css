@@ -104,11 +104,84 @@
     font-weight: 400;
 }
 
-@media screen and (max-width: '790px') {
+.NavBarr_Mobile{
+    display: none;
+}
+
+@media screen and (max-width: 790px) {
 
 
-    .NavBar_Right{
+   
+
+    .NavBar_Right_Container{
         display: none;
     }
+
+    .NavBar_Left img{
+        width: 100px;
     
+    }
+    .NavBar_Left_Button{
+        display: none;
+    }
+
+    .NavBar_Top{
+        background-color: rgba(26, 115, 232, 0.15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 20px;
+        color: #000000;
+        font-size: 8px;
+        font-weight: 400;
+    }
+    
+    .NavBar_Top span{
+        color: #3674B5;
+        margin-left: 10px;
+    }
+
+    .NavBarr_Mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .NavBarr_Mobile_Button{
+        background-color: #3674B5;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 16px
+    }
+    
+    .NavBar_Container{
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+.NavBar_Bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+}
+
+.NavBar_Bottom_Container{
+    background-color: rgba(26, 115, 232, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
 }

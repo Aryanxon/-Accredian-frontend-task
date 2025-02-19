@@ -3,6 +3,7 @@ import '../styles/NavBar.css'
 import Logo from '../assets/Logo.webp'
 import "../App.css"
 import { IoIosArrowDown } from "react-icons/io";
+import { RiMenu3Line } from "react-icons/ri";
 
 function NavBar() {
   return (
@@ -25,6 +26,17 @@ function NavBar() {
             </div>
 
             <div className='NavBar_Right'>
+
+
+
+                <div className='NavBarr_Mobile'>
+                    <div className='NavBarr_Mobile_Button'>
+                        Explore
+                    </div>
+                    <RiMenu3Line style={{fontSize: '20px'}}/>
+
+
+                </div>
 
                 <div className='NavBar_Right_Container'>
 

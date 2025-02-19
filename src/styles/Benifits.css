@@ -127,3 +127,15 @@
     border-radius: 20px;
     color: white;
 }
+
+
+@media screen and (max-width: 790px) {
+
+    .Benefit_Container{
+        display: none;
+    }
+
+
+
+}
+

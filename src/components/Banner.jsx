@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "../styles/Banner.css"
-import "../styles/NavBar.css"
+// import "../styles/NavBar.css"
 import Banner_Img from '../assets/Banner.png'
 import '../styles/HowDo.css'
 import HowDoImg from '../assets/HowDo.png'

@@ -36,3 +36,29 @@
     gap: 5px;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 790px) {
+
+    .HowDo_image {
+        width: 90%;
+        height: 90vh;
+        overflow: hidden; /* Prevents overflow */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-position: center;
+        margin: 10px 0px;
+    }
+    
+    .HowDo_image img {
+        width: 90vh; /* Adjust width to match rotated height */
+        height: 90vw; /* Adjust height to match rotated width */
+        object-fit: cover;
+        transform: rotate(90deg);
+    }
+    
+    
+
+
+}

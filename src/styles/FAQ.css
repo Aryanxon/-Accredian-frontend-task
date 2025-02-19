@@ -121,3 +121,15 @@
 
 
 }
+
+
+@media screen and (max-width: 790px) {
+
+
+.FAQ_Container{
+    display: none;
+}
+
+
+}
+
